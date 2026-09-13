@@ -5,7 +5,7 @@ from PIL import Image
 
 st.set_page_config(page_title="App Tử Vi Cao Cấp - Thực Chiến", layout="centered")
 
-API_KEY = "AQ.Ab8RN6JbRkH8GEDAATs5vH0XBegH84k1-NHT4ux5PPqQIrb_gg"
+API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=API_KEY)
 MODEL_NAME = "gemini-2.5-flash"
 KNOWLEDGE_FILE = "knowledge_base.txt"
