@@ -7,7 +7,7 @@ st.set_page_config(page_title="App Tử Vi Cao Cấp - Thực Chiến", layout="
 
 API_KEY = "AQ.Ab8RN6JjUiN456SCizF-YNGXihY_xW0q27tM0j-5EpTUCgzxew"
 client = genai.Client(api_key=API_KEY)
-MODEL_NAME = "gemini-3.6-flash"
+MODEL_NAME = "gemini-2.5-flash"
 KNOWLEDGE_FILE = "knowledge_base.txt"
 
 def load_knowledge_base():
